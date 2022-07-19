@@ -1,0 +1,5 @@
+*.css
+*.scss
+*.module.scss
+*.svg
+/node_modules
