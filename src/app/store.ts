@@ -1,9 +1,10 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import searchArtistsReducer from '../features/artists/artistsSlice';
 
+// TODO: Add data persistence middleware
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    artistSearchResult: searchArtistsReducer,
   },
 });
 
